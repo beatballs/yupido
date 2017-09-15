@@ -1,0 +1,200 @@
+/*
+=====================================================================
+*   Zoon v1.0 Layout Stylesheet
+*   url: styleshout.com
+*   06-07-2014
+=====================================================================
+
+   TOC:
+   a. General Styles
+   b. Intro Section
+   c. About Section
+   d. Location Section
+   e. Footer
+
+===================================================================== */
+
+/* ------------------------------------------------------------------ */
+/* a. General Styles
+/* ------------------------------------------------------------------ */
+
+body { background: #FFDD00 }
+
+
+/* ------------------------------------------------------------------ */
+/* b. Intro Styles
+/* ------------------------------------------------------------------ */
+
+#intro {
+   position: relative;  
+   height: 100%;
+   width: 100%;
+   background: #fff;
+   background-size: cover !important;
+	-webkit-background-size: cover !important;   
+}
+
+/* Header 
+/* ------------------------------------------------------------------ */
+
+header #logo {	
+	width: 45%;	
+	
+	text-align: center;
+    margin-top: -10%;
+
+	
+	position: absolute;
+	
+	left: 27%;
+}
+
+/* primary navigation
+--------------------------------------------------------------------- */
+
+
+
+/* Main 
+------------------------------------------------------------------ */
+#main {
+	margin: 9.5%;
+    padding-top: 13%;
+	text-align: center;	
+    
+}
+
+#main p {	
+	font: 20px/33px 'montserrat-regular', sans-serif;
+	color: #fff;
+	margin-bottom: 9.5%;
+	padding: 1.5% 18%;
+    
+    
+	
+}
+
+#main h2 {	
+	font: 20px/33px 'montserrat-regular', sans-serif;
+	color: #fff;
+	margin-bottom: 6.5%;
+    margin-top: 4%;
+	padding: 0 18%;
+    
+    
+	
+}
+#main h5 {
+	font: 13px/24px 'montserrat-bold', sans-serif;
+	color: #A2195B;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+
+}
+
+
+
+/* social links */
+#main .social {
+	clear: both;
+	font-size: 30px;
+   margin: 10px 0 0px 0px;
+   
+   
+}
+#main .social li {
+   display: inline-block;
+   margin: 0 12px;
+   padding: 0;
+}
+#main .social li a { color: #fff; }
+#main .social li a:hover { color: #A2195B; }
+
+
+
+/* ------------------------------------------------------------------ */
+/* c. About Section
+/* ------------------------------------------------------------------ */
+
+#about {
+	background: #A2195B;
+	color: #fff; 
+   padding-top: 96px;
+   padding-bottom: 72px;     
+   overflow: hidden; 
+    height: 100%;
+    width: 100%;
+       
+}
+#about a, #about a:visited  { color: #0C3012; }
+#about a:hover, #about a:focus { color: #fff; }
+
+.section-header,
+.section-content {
+	max-width: 880px;
+}
+#about .section-header {
+	text-align: center;	
+	margin-bottom: 12px;
+}
+#about .section-header .icon-wrap { 	
+	font-size: 60px;
+	margin-bottom: 18px;
+	color: #fff; 
+}
+#about .section-header h1 {
+   font: 30px/36px 'montserrat-bold', sans-serif;
+   color: #fff;
+   margin-bottom: 12px;
+   padding: 0 15%;
+}
+#about .section-header p { 
+	color: #fff; 
+	padding: 0 3%;
+}
+#about h3 {
+   font: 15px/24px 'montserrat-bold', sans-serif;
+   color: #FFDD00;
+   text-transform: uppercase;
+   letter-spacing: 3px;   
+   margin-bottom: 12px;
+}
+
+
+
+
+/* ------------------------------------------------------------------ */
+/* d. Location Section
+/* ------------------------------------------------------------------ */
+
+footer {
+	font: 22px 'montserrat-regular', sans-serif;
+	background: #FFDD00;
+   color: #fff; 
+    padding-bottom: 3.5%;
+
+}
+
+
+
+
+p2 {
+	font: 12px 'montserrat-regular', sans-serif;
+	background: #FFDD00;
+   color: #fff; 
+   
+    
+ 
+}
+  
+   
+
+
+
+
+
+/* ------------------------------------------------------------------ */
+/* e. Footer
+/* ------------------------------------------------------------------ */
+
+
+
